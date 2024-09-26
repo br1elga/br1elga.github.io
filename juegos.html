@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Tech - Juegos</title>
+    <link rel="stylesheet" href="css/juegos-sty.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo tech.png" alt="Tienda Tech">
+        </div>
+        <h1>Tienda Tech</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="computadoras.html">Computadoras</a></li>
+                <li><a href="juegos.html">Juegos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos...">
+            <button>Buscar</button>
+        </div>
+
+        <div class="producto">
+            <h3>Videojuego Cyberpunk 2077</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg" alt="Videojuego Cyberpunk 2077">
+            <p>RPG futurista en Night City. $59.99</p>
+            <button onclick="agregarAlCarrito('Videojuego Cyberpunk 2077', 59.99)">Añadir a la cesta</button>
+        </div>
+
+        <div class="producto">
+            <h3>Black Myth Wukong</h3>
+            <img src="https://i.3djuegos.com/juegos/17495/black_myth_wu_kong/fotos/ficha/black_myth_wu_kong-5858054.webp" alt="Black Myth Wukong">
+            <p>RPG ambientado en la China antigua. $59.99</p>
+            <button onclick="agregarAlCarrito('Black Myth Wukong', 59.99)">Añadir a la cesta</button>
+        </div>
+        
+        <div class="producto">
+            <h3>Grand Theft Auto V</h3>
+            <img src="https://http2.mlstatic.com/D_NQ_NP_614188-MLU75209326158_032024-O.webp" alt="Grand Theft Auto V">
+            <p>Grand Theft Auto V. $50.00</p>
+            <button onclick="agregarAlCarrito('Acción y crimen LS.', 50.00)">Añadir a la cesta</button>
+        </div>
+
+        <div class="producto">
+            <h3>Warhammer 40,000: Space Marine</h3>
+            <img src="https://nextgames.com.ar/img/Public/1040/37462-producto-6576886-sd.jpg" alt="Warhammer 40,000: Space Marine">
+            <p>Computadora PC GAMER CORE I7 34Ghz Ram 16GB Disco1TB+SSD480GB GTX1650 4GB M27” FHD. $35.00</p>
+            <button onclick="agregarAlCarrito('Batallas en el futuro del milenio 41', 35.00)">Añadir a la cesta</button>
+        </div>
+
+        <div id="carrito">
+            <h2>Carrito de compras</h2>
+            <p>Tu carrito está vacío.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Tienda Tech</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

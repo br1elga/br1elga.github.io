@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Tech - Contacto</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-light py-3">
+        <div class="container d-flex align-items-center">
+            <div class="logo me-3">
+                <img src="img/logo tech.png" alt="Tienda Tech" class="img-fluid" width="50">
+            </div>
+            <h1 class="h3">Tienda Tech</h1>
+            <nav class="ms-auto">
+                <ul class="nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="computadoras.html" class="nav-link">Computadoras</a></li>
+                    <li class="nav-item"><a href="juegos.html" class="nav-link">Juegos</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container my-4">
+        <h2>Sobre Tienda Tech</h2>
+        <p>
+            Tienda Tech fue fundada en 2010 con el objetivo de proporcionar las mejores soluciones tecnológicas a los
+            entusiastas de las computadoras y videojuegos. A lo largo de los años, hemos crecido hasta convertirnos en 
+            una tienda de confianza para gamers y profesionales de todo el mundo. Nos dedicamos a ofrecer productos de 
+            alta calidad y un servicio excepcional.
+        </p>
+        <p>
+            Nuestro catálogo incluye las últimas computadoras personalizadas, hardware, periféricos, y una vasta 
+            selección de videojuegos. Nuestro equipo de expertos está siempre disponible para ayudar a nuestros clientes 
+            a encontrar el producto adecuado para sus necesidades.
+        </p>
+        <p>
+            ¡Gracias por elegir Tienda Tech para todas tus necesidades tecnológicas!
+        </p>
+
+        <h2 class="mt-5">Contáctanos</h2>
+
+        <form action="agradecimiento.html" method="POST">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="Nombre" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="correo" name="Correo" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="metodo_pago" class="form-label">Método de pago</label>
+                <select class="form-select" id="metodo_pago" name="MetodoPago" required>
+                    <option value="Tarjeta de crédito">Tarjeta de crédito</option>
+                    <option value="Transferencia bancaria">Transferencia bancaria</option>
+                    <option value="Yappy">Yappy</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <footer class="bg-light text-center py-4">
+        <p>© 2024 Tienda Tech</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

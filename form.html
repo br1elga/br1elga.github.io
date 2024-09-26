@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Tech - Computadoras y Juegos</title>
+    <link rel="stylesheet" href="css/form-sty.css"> <!-- Asegúrate de que la ruta del archivo CSS sea correcta -->
+</head>
+<body>
+    <header>
+        <!-- Espacio para el logo -->
+        <div class="logo">
+            <img src="img/logo tech.png" alt="Logo Tienda Tech"> <!-- Cambia la ruta a "img/logo tech.png" si es la carpeta de imágenes -->
+        </div>
+        <h1>Tienda Tech</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li> <!-- Actualización de enlaces -->
+                <li><a href="computadoras.html">Computadoras</a></li>
+                <li><a href="juegos.html">Juegos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <footer>
+        <!-- Formulario que se moverá hacia abajo -->
+        <div class="formulario">
+            <form class="normal-text" action="#" method="POST"> <!-- Agregué action="#" para que se envíe correctamente -->
+                <p>Nombre: <input type="text" name="Nombre" required></p> <!-- Agregué "required" para validar el campo -->
+                <p>Correo electrónico: <input type="email" name="Correo" required></p> <!-- Agregué "required" para validar el correo -->
+                <p>Método de pago: 
+                    <select name="metodoPago" id="metodoPago" required> <!-- Agregué name e id al select -->
+                        <option value="Tarjeta de crédito">Tarjeta de crédito</option>
+                        <option value="Transferencia bancaria">Transferencia bancaria</option>
+                        <option value="Yappy">Yappy</option>
+                    </select>
+                </p>
+                <p><input type="submit" value="Enviar"></p>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

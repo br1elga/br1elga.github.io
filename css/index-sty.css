@@ -1,0 +1,109 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;  /* Fondo negro */
+    color: white;  /* Texto blanco */
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;  /* Negro */
+    color: #fff;  /* Texto blanco */
+    padding: 20px;
+}
+
+/* Estilo para el logo */
+.logo img {
+    max-height: 85px; /* Ajusta el tamaño del logo */
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #e60000;  /* Rojo */
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.search-bar {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid gold;  /* Borde rojo */
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: red;  /* Botón rojo */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Contenido principal */
+.container {
+    padding: 20px;
+}
+
+h2 {
+    color: red;  /* Títulos en rojo */
+}
+
+.producto {
+    background-color: #333;  /* Fondo oscuro para los productos */
+    border: 2px solid gold;  /* Borde rojo */
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 50%;
+    height: auto;
+}
+
+.btn-detalles, .btn-compra {
+    background-color: #e60000;  /* Botones en rojo */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#carrito {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid gold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;  /* Fondo negro */
+    color: white;  /* Texto blanco */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

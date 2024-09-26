@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Tech - Computadoras y Juegos</title>
+    <link rel="stylesheet" href="css/index-sty.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo tech.png" alt="Tienda Tech">
+        </div>
+        <h1>Tienda Tech</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="computadoras.html">Computadoras</a></li>
+                <li><a href="juegos.html">Juegos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos...">
+            <button>Buscar</button>
+        </div>
+
+        <h2>Ofertas destacadas</h2>
+
+        <div class="producto">
+            <h3>PC Gamer Intel Core i7</h3>
+            <img src="https://oechsle.vteximg.com.br/arquivos/ids/16322673-998-998/image-3dd13d30a3b84710b769c3de1772266c.jpg?v=638313100342730000" alt="PC Gamer Intel Core i7">
+            <p>Pc Gamer Intel Core i7. $3,100.00</p>
+            <button onclick="agregarAlCarrito('PC Gamer Intel Core i7', 3100)">Añadir a la cesta</button>
+        </div>
+
+        <div class="producto">
+            <h3>Videojuego Cyberpunk 2077</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg" alt="Videojuego Cyberpunk 2077">
+            <p>RPG futurista en Night City. $59.99</p>
+            <button onclick="agregarAlCarrito('Videojuego Cyberpunk 2077', 59.99)">Añadir a la cesta</button>
+        </div>
+
+        <div id="carrito">
+            <h2>Carrito de compras</h2>
+            <p>Tu carrito está vacío.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Tienda Tech</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Tech - Computadoras</title>
+    <link rel="stylesheet" href="css/computadoras-sty.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo tech.png" alt="Tienda Tech">
+        </div>
+        <h1>Tienda Tech</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="computadoras.html">Computadoras</a></li>
+                <li><a href="juegos.html">Juegos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos...">
+            <button>Buscar</button>
+        </div>
+
+        <div class="producto">
+            <h3>PC Gamer Intel Core i7</h3>
+            <img src="https://oechsle.vteximg.com.br/arquivos/ids/16322673-998-998/image-3dd13d30a3b84710b769c3de1772266c.jpg?v=638313100342730000" alt="PC Gamer Intel Core i7">
+            <p>Pc Gamer Intel Corei7 12va Monitor 27 165hz Video Rtx3060 8gb Ram 16gb Ssd 1tb. $3,100.00</p>
+            <button onclick="agregarAlCarrito('PC Gamer Intel Core i7', 3.100)">Añadir a la cesta</button>
+        </div>
+
+        <div class="producto">
+            <h3>Computadora PC Gamer 24" AMD Ryzen 5 5500</h3>
+            <img src="https://www.efe.com.pe/media/catalog/product/s/g/sgmp80_1n.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:" alt="Computadora PC Gamer 24 AMD Ryzen 5 5500">
+            <p>PC Gamer Cosmos — AMD Ryzen 7 5800X / RTX 4060 8GB / 32GB DDR4 / 1TB SSD / Wifi y Bluetooth / AiO 360mm / W11 Home (sin licencia). $1,359.00</p>
+            <button onclick="agregarAlCarrito('Computadora PC Gamer 24 AMD Ryzen 5 5500', 1.359)">Añadir a la cesta</button>
+        </div>
+
+        <div class="producto">
+            <h3>Computadora PC GAMER RYZEN 7-5700G</h3>
+            <img src="https://www.xtremepc.com.mx/cdn/shop/files/49f41db4-0e94-4b0c-bb3b-e4f3d39f0ba5_800x.png?v=1726675051" alt="Computadora PC GAMER RYZEN 7-5700G">
+            <p>Computadora PC GAMER RYZEN 7-5700G RAM 16GB DISCO 1TB SSD 480GB MONITOR 27” FHD. $2,659.00</p>
+            <button onclick="agregarAlCarrito('Computadora PC GAMER RYZEN 7-5700G', 2.659)">Añadir a la cesta</button>
+        </div>
+
+        <div class="producto">
+            <h3>Computadora PC GAMER CORE I7 34Ghz</h3>
+            <img src="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/118483796_01/w=800,h=800,fit=pad" alt="Computadora PC GAMER CORE I7 34Ghz">
+            <p>Computadora PC GAMER CORE I7 34Ghz Ram 16GB Disco1TB+SSD480GB GTX1650 4GB M27” FHD. $2,859.00</p>
+            <button onclick="agregarAlCarrito('Computadora PC GAMER CORE I7 34Ghz', 2.859)">Añadir a la cesta</button>
+        </div>
+
+        <div id="carrito">
+            <h2>Carrito de compras</h2>
+            <p>Tu carrito está vacío.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Tienda Tech</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
